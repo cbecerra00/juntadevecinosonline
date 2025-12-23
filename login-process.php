@@ -5,7 +5,7 @@ session_start();
 require_once('lib/lib.inc');
 $connect = db();
 $resp = array();
-#$ip = getUserIpAddr();
+$ip = getUserIpAddr();
 
 if (isset($_POST['Username'])) {
    $txt_u = $_POST['Username'];
