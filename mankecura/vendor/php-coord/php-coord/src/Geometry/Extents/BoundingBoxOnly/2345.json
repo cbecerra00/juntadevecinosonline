@@ -1,0 +1,10 @@
+{
+    "id": "urn:ogc:def:area:EPSG::2345",
+    "title": "Asia-ExFSU/Asia - Middle East - Iraq; Israel; Jordan; Lebanon; Kuwait; Saudi Arabia; Syria",
+    "type": "Polygon",
+    "coordinates": [
+        [
+            [34.07510974660778, 16.27750343674124], [55.76610716844856, 16.27750343674124], [55.76610716844856, 37.48367455842095], [34.07510974660778, 37.48367455842095], [34.07510974660778, 16.27750343674124]
+        ]
+    ]
+}

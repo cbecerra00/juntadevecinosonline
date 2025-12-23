@@ -1,0 +1,14 @@
+$(function() {
+   $('#btn-login').click(function(event){
+      event.preventDefault();
+
+      $.post('login-process.php',$('#login-form').serialize(),function(resp) {
+         if(resp['status'] === true){
+            window.location.href = resp['url'];
+         } else {
+            $("#error").html('<div class="alert alert-danger"> <i class="fa fa-frown-o"></i> &nbsp; '+resp['msg']+' !</div>');
+            $("#error").show();
+         }
+      },'json');
+   });
+});

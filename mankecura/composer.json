@@ -1,0 +1,5 @@
+{
+    "require": {
+        "php-coord/php-coord": "^5.7"
+    }
+}

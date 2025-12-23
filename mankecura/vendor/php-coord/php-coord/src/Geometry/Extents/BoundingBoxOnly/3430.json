@@ -1,0 +1,10 @@
+{
+    "id": "urn:ogc:def:area:EPSG::3430",
+    "title": "Australasia and Oceania/New Caledonia - Belep, Grande Terre, Ile des Pins, Loyalty Islands",
+    "type": "Polygon",
+    "coordinates": [
+        [
+            [163.4423738391413, -22.82191641082534], [168.2840706433686, -22.82191641082534], [168.2840706433686, -19.40584351266646], [163.4423738391413, -19.40584351266646], [163.4423738391413, -22.82191641082534]
+        ]
+    ]
+}
